@@ -1,0 +1,27 @@
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.gallery .title{
+    width: 100%;
+    text-align: center;
+}
+
+.row {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+img {
+  width: 200px;
+  height: 200px; /* 画像の高さを 200px に設定 */
+  margin-right: 10px;
+  margin-bottom: 10px;
+  object-fit: cover;
+}

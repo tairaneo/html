@@ -1,0 +1,24 @@
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .text-column {
+    flex: 1;
+  }
+  
+  .image-column {
+    flex: 1;
+  }
+  
+  .vertical-text {
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    white-space: nowrap;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
